@@ -20,6 +20,6 @@ jobs:
         username: ${{ secrets.LINODE_USERNAME }}
         key: ${{ secrets.LINODE_SSH_KEY }}
         script: |
-          cd /path/to/your/project
+          cd deploy-basico
           git pull origin main
           
